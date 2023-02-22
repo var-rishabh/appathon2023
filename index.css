@@ -35,7 +35,7 @@ section {
 
 @media (max-width: 900px) {
   section {
-    padding: 50px 10px 10px;
+    padding: 50px 0;
   }
 }
 
@@ -55,13 +55,12 @@ section {
   margin-top: 60px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 700px) {
   .container {
     flex-direction: column;
-    margin-top: 80px;
-    height: auto;
-    padding: 10px;
-    width: calc(100% - 0px);
+    width: 90%;
+    padding: 30px 0;
+    margin-top: 110px;
   }
 }
 
@@ -69,8 +68,6 @@ section {
   header {
     position: fixed;
     top: 10px;
-    /* right: 20px;
-    left: 20px; */
     padding: 20px 50px;
     display: flex;
     justify-content: space-between;
@@ -88,15 +85,14 @@ section {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 768px) {
   header {
-    position: relative;
-    top: -120px;
-    right: 0px;
-    left: 0px;
-    width: 100%;
+    width: 95%;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
+  }
+  ul {
+    margin: 20px;
   }
 }
 
@@ -180,14 +176,15 @@ header ul li a.active {
 }
 
 .experience-cards-div {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-  grid-gap: 1rem 1rem;
-  gap: 1rem 1rem;
-  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px;
 }
 
 .experience-card {
+  margin: 20px 10px;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);
   border-radius: 1rem;
   backdrop-filter: blur(1rem);
@@ -197,6 +194,12 @@ header ul li a.active {
   transition: 0.5s ease;
 }
 
+@media (max-width: 768px) {
+  .experience-cards-div {
+    margin: 10px 50px;
+  }
+}
+
 .experience-card:hover {
   box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.2);
   background: rgba(255, 255, 255, 0.5);
@@ -204,7 +207,6 @@ header ul li a.active {
 
 .experience-text-details {
   padding: 1.5rem;
-  margin-top: 2rem;
 }
 
 .experience-text-role {
@@ -215,14 +217,41 @@ header ul li a.active {
   margin: 0;
   padding-top: 1.5rem;
   line-height: normal;
+  width: 200px;
 }
 
 .experience-text-date {
   text-align: center;
   color: #000;
   font-size: 20px;
-  margin: 0;
   padding-top: 1rem;
+  font-weight: 800;
+}
+
+.experience-name {
+  color: #000;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: normal;
+  font-weight: 800;
+}
+
+.experience-desig {
+  color: #000;
+  font-size: 15px;
+  padding-top: 0;
+}
+
+.experience-exp {
+  color: #000;
+  font-size: 18px;
+  padding: 10px 0 10px 0;
+  font-weight: 400;
+}
+
+.experience-choice {
+  color: #000;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -230,12 +259,8 @@ header ul li a.active {
   color: #868e96;
 }
 
-.experience-text-desc {
-  text-align: center;
-}
-
 .low-highlight-cyan {
   letter-spacing: 2px;
   padding: 0 5px;
-  background: linear-gradient(to bottom, transparent 50%, #fffb15 50%);
+  background: linear-gradient(to bottom, transparent 50%, #15ff4f 50%);
 }

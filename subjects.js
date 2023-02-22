@@ -29,7 +29,7 @@ const subjects = [
     },
     {
         "sub_id": "CS801",
-        "subject": "Computer Graphics and Visualization"
+        "subject": "Computer Graphics"
     },
     {
         "sub_id": "CS901",
@@ -37,6 +37,6 @@ const subjects = [
     },
     {
         "sub_id": "CS1001",
-        "subject": "Computer Security"
+        "subject": "Machine Learning"
     }
 ]
