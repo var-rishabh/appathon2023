@@ -1,0 +1,55 @@
+{
+    "teachers": [
+      {
+        "name": "Anjali Sharma",
+        "designation": "Professor",
+        "experience": 15
+      },
+      {
+        "name": "Naveen Kumar",
+        "designation": "Assistant",
+        "experience": 8
+      },
+      {
+        "name": "Rashmi Patel",
+        "designation": "Assistant",
+        "experience": 10
+      },
+      {
+        "name": "Abhishek Singh",
+        "designation": "Assistant",
+        "experience": 6
+      },
+      {
+        "name": "Amita Rao",
+        "designation": "Professor",
+        "experience": 12
+      },
+      {
+        "name": "Manoj Desai",
+        "designation": "Assistant",
+        "experience": 9
+      },
+      {
+        "name": "Kavita Reddy",
+        "designation": "Assistant",
+        "experience": 5
+      },
+      {
+        "name": "Smita Rao",
+        "designation": "HOD",
+        "experience": 18
+      },
+      {
+        "name": "Nitin Deshpande",
+        "designation": "Professor",
+        "experience": 7
+      },
+      {
+        "name": "Sanjay Joshi",
+        "designation": "Assistant",
+        "experience": 4
+      }
+    ]
+  }
+  

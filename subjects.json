@@ -1,0 +1,84 @@
+{
+    "subjects": [
+        {
+            "id": "CSE101",
+            "name": "Programming in C"
+        },
+        {
+            "id": "CSE102",
+            "name": "Data Structures and Algorithms"
+        },
+        {
+            "id": "CSE103",
+            "name": "Database Management Systems"
+        },
+        {
+            "id": "CSE104",
+            "name": "Computer Networks"
+        },
+        {
+            "id": "CSE105",
+            "name": "Operating Systems"
+        },
+        {
+            "id": "CSE106",
+            "name": "Object Oriented Programming"
+        },
+        {
+            "id": "CSE107",
+            "name": "Computer Organization and Architecture"
+        },
+        {
+            "id": "CSE108",
+            "name": "Web Development"
+        },
+        {
+            "id": "CSE109",
+            "name": "Software Engineering"
+        },
+        {
+            "id": "CSE110",
+            "name": "Computer Graphics"
+        },
+        {
+            "id": "CSE111",
+            "name": "Artificial Intelligence"
+        },
+        {
+            "id": "CSE112",
+            "name": "Machine Learning"
+        },
+        {
+            "id": "CSE113",
+            "name": "Computer Vision"
+        },
+        {
+            "id": "CSE114",
+            "name": "Natural Language Processing"
+        },
+        {
+            "id": "CSE115",
+            "name": "Human Computer Interaction"
+        },
+        {
+            "id": "CSE116",
+            "name": "Mobile Application Development"
+        },
+        {
+            "id": "CSE117",
+            "name": "Cloud Computing"
+        },
+        {
+            "id": "CSE118",
+            "name": "Big Data Analytics"
+        },
+        {
+            "id": "CSE119",
+            "name": "Cyber Security"
+        },
+        {
+            "id": "CSE120",
+            "name": "Internet of Things"
+        }
+    ]
+}
