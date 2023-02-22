@@ -1,4 +1,4 @@
-[
+const subjects = [
     {
         "sub_id": "CS101",
         "subject": "Introduction to Computer Science"
