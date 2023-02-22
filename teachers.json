@@ -1,54 +1,49 @@
 {
     "teachers": [
       {
-        "name": "Anjali Sharma",
+        "name": "Anjali Gupta",
+        "id": "T001",
         "designation": "Professor",
-        "experience": 15
+        "experience": 15,
+        "priority_1": ["CS101", "CS201", "CS301", "CS401", "CS501", "CS601", "CS701"],
+        "priority_2": ["CS801", "CS901"],
+        "priority_3": ["CS302"]
       },
       {
-        "name": "Naveen Kumar",
-        "designation": "Assistant",
-        "experience": 8
+        "name": "Rahul Sharma",
+        "id": "T002",
+        "designation": "Assistant Professor",
+        "experience": 8,
+        "priority_1": ["CS201", "CS301", "CS401", "CS501", "CS601", "CS701"],
+        "priority_2": ["CS801", "CS901"],
+        "priority_3": ["CS101", "CS302"]
       },
       {
-        "name": "Rashmi Patel",
-        "designation": "Assistant",
-        "experience": 10
+        "name": "Shruti Patel",
+        "id": "T003",
+        "designation": "Assistant Professor",
+        "experience": 5,
+        "priority_1": ["CS101", "CS201", "CS301", "CS401", "CS501", "CS601"],
+        "priority_2": ["CS701", "CS801"],
+        "priority_3": ["CS302", "CS901"]
       },
       {
-        "name": "Abhishek Singh",
-        "designation": "Assistant",
-        "experience": 6
+        "name": "Amit Singh",
+        "id": "T004",
+        "designation": "Associate Professor",
+        "experience": 10,
+        "priority_1": ["CS701", "CS801", "CS901", "CS101", "CS201", "CS301"],
+        "priority_2": ["CS401", "CS501", "CS601"],
+        "priority_3": ["CS302"]
       },
       {
-        "name": "Amita Rao",
-        "designation": "Professor",
-        "experience": 12
-      },
-      {
-        "name": "Manoj Desai",
-        "designation": "Assistant",
-        "experience": 9
-      },
-      {
-        "name": "Kavita Reddy",
-        "designation": "Assistant",
-        "experience": 5
-      },
-      {
-        "name": "Smita Rao",
-        "designation": "HOD",
-        "experience": 18
-      },
-      {
-        "name": "Nitin Deshpande",
-        "designation": "Professor",
-        "experience": 7
-      },
-      {
-        "name": "Sanjay Joshi",
-        "designation": "Assistant",
-        "experience": 4
+        "name": "Priya Patel",
+        "id": "T005",
+        "designation": "Head of Department",
+        "experience": 20,
+        "priority_1": ["CS701", "CS801", "CS901", "CS101", "CS201", "CS301"],
+        "priority_2": ["CS401", "CS501"],
+        "priority_3": ["CS601", "CS302"]
       }
     ]
   }
