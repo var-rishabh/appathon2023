@@ -8,12 +8,7 @@
 }
 
 body {
-  background: rgb(250, 44, 133);
-  background: radial-gradient(
-    circle,
-    rgb(247, 32, 125) 0%,
-    rgba(148, 187, 233, 1) 100%
-  );
+  background-image: radial-gradient(circle, #89f7fe 0%, #66a6ff 100%);
 }
 
 .flex-row {

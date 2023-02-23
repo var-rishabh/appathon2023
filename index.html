@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PIET | TimeTable</title>
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./table.css" />
 </head>
 
 <body>
@@ -22,21 +23,53 @@
         <div class="container">
 
             <h2 style="font-size: 56px; font-weight: 700; text-align:center;">
-                <span class="low-highlight-cyan">Time Table</span>
+                <span class="low-highlight-cyan">Schedule</span>
             </h2>
             <div class="content">
-                <div class="column">
-                    <p data-aos="fade-right" data-aos-duration="1000">
-                        I love software development and machine learning. I
-                        am a Full-Stack Web Developer too! Want to discuss
-                        regarding any project or just want to say a Hi? I am always
-                        available to listen you :)
-                    </p>
-                    <a href="/index.html" data-aos="fade-right">Shuffle</a>
+                <div class="row">
+                    <div class="table-wrap">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th id="row">ID Number</th>
+                                    <th>Teacher</th>
+                                    <th>Subjects</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="alert" role="alert">
+                                    <th id="row">T001</th>
+                                    <td>Anjali Gupta</td>
+                                    <td id="T001"></td>
+                                </tr>
+                                <tr class="alert" role="alert">
+                                    <th id="row">T002</th>
+                                    <td>Rahul Sharma</td>
+                                    <td id="T002"></td>
+                                </tr>
+                                <tr class="alert" role="alert">
+                                    <th id="row">T003</th>
+                                    <td>Shruti Patel</td>
+                                    <td id="T003"></td>
+                                </tr>
+                                <tr class="alert" role="alert">
+                                    <th id="row">T004</th>
+                                    <td>Amit Singh</td>
+                                    <td id="T004"></td>
+                                </tr>
+                                <tr class="alert" role="alert">
+                                    <th id="row">T005</th>
+                                    <td>Priya Patel</td>
+                                    <td id="T005"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
+
+    <script type="module" src="./index.js"></script>
 </body>
 
 </html>

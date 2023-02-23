@@ -4,44 +4,46 @@ const teachers = [
     "id": "T001",
     "designation": "Professor",
     "experience": 15,
-    "priority_1": ["CS101", "CS201", "CS301", "CS401", "CS501", "CS601", "CS701"],
-    "priority_2": ["CS801", "CS901"],
-    "priority_3": ["CS302"]
+    "1": ["1", "2", "3", "4", "5", "6", "7"],
+    "2": ["8", "9"],
+    "3": ["10"]
   },
   {
     "name": "Rahul Sharma",
     "id": "T002",
-    "designation": "Assistant Professor",
+    "designation": "Assistant_Professor",
     "experience": 8,
-    "priority_1": ["CS201", "CS301", "CS401", "CS501", "CS601", "CS701"],
-    "priority_2": ["CS801", "CS901"],
-    "priority_3": ["CS101", "CS302"]
+    "1": ["2", "3", "4", "5", "6", "7"],
+    "2": ["8", "9"],
+    "3": ["1", "10"]
   },
   {
     "name": "Shruti Patel",
     "id": "T003",
-    "designation": "Assistant Professor",
+    "designation": "Assistant_Professor",
     "experience": 5,
-    "priority_1": ["CS101", "CS201", "CS301", "CS401", "CS501", "CS601"],
-    "priority_2": ["CS701", "CS801"],
-    "priority_3": ["CS302", "CS901"]
+    "1": ["1", "2", "10", "4", "5", "6"],
+    "2": ["7", "8"],
+    "3": ["3", "9"]
   },
   {
     "name": "Amit Singh",
     "id": "T004",
-    "designation": "Associate Professor",
+    "designation": "Associate_Professor",
     "experience": 10,
-    "priority_1": ["CS701", "CS801", "CS901", "CS101", "CS201", "CS301"],
-    "priority_2": ["CS401", "CS501", "CS601"],
-    "priority_3": ["CS302"]
+    "1": ["7", "8", "9", "1", "2", "10"],
+    "2": ["4", "5", "6"],
+    "3": ["3"]
   },
   {
     "name": "Priya Patel",
     "id": "T005",
-    "designation": "Head of Department",
+    "designation": "HOD",
     "experience": 20,
-    "priority_1": ["CS701", "CS801", "CS901", "CS101", "CS201", "CS301"],
-    "priority_2": ["CS401", "CS501"],
-    "priority_3": ["CS601", "CS302"]
+    "1": ["7", "8", "9", "1", "2", "3"],
+    "2": ["4", "5"],
+    "3": ["6", "10"]
   }
 ]
+
+export default teachers;
